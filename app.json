@@ -1,12 +1,45 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/index/index",    
+    "pages/mall/mall",
+    "pages/me/me",
+    "pages/shoppingcar/shoppingcar"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3DBE59",
+    "navigationBarTitleText": "永辉生活",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./res/image/ic_main1.png",
+        "selectedIconPath": "./res/image/ic_main1_selected.png"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "text": "配送商城",
+        "iconPath": "./res/image/ic_main2.png",
+        "selectedIconPath": "./res/image/ic_main2_selected.png"
+      },
+      {
+        "pagePath": "pages/shoppingcar/shoppingcar",
+        "text": "购物车",
+        "iconPath": "./res/image/ic_main3.png",
+        "selectedIconPath": "./res/image/ic_main3_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./res/image/ic_main4.png",
+        "selectedIconPath": "./res/image/ic_main4_selected.png"
+      }
+    ]
   }
 }
