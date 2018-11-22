@@ -1,2 +1,29 @@
 <!--pages/home.wxml-->
-<text>pages/home.wxml</text>
+<view style="posotion:relative">
+  <view class='section1'></view>
+  <view class='section'></view>
+  <view class='titleBar'>
+    <image class="image" src='../../res/image/ic_main1.png' mode='cover'></image>
+    <image class="image" src='../../res/image/ic_main1.png'></image>
+    <image class="image" src='../../res/image/ic_main1.png'></image>
+  </view>
+</view>
+<view style='margin-left:3%;margin-right:3%;margin-bottom:10px'>
+  <view id='head'>
+    <view style='posotion:relative;margin-top:30px'>
+      <text id='title'>巧巧超市</text>
+      <text style="font-size:8pt">健康生活每一天</text>
+      <view id='tabIndicator' />
+    </view>
+  </view>
+  <view style='border-radius:5px'>
+    <swiper id='swiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+<image id='activityUrl' src="{{activityUrl}}"></image>
