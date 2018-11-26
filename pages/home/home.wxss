@@ -23,12 +23,53 @@
   width: 94%;
   height: 60px;
   background: #fff;
+  border-width: 0.5px;
+  border-color: #bbb;
+  border-style: solid;
   border-radius: 10px;
-  flex-direction: column;
+  box-shadow: 0rpx 5rpx 0rpx 0rpx #999;
   position: absolute;
-  top: 10px;
+  top: 2px;
   left: 3%;
   right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+#location {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+#searchbox {
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: centor;
+  flex-direction: column;
+}
+
+#scanbox {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#circlebg {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 140, 255, 0.781);
+  border-radius: 20px;
 }
 
 #head {
@@ -37,31 +78,56 @@
 
 #title {
   font-size: 12pt;
-  margin-right: 5px;
   font-weight: 'bold';
+  width: 100%;
 }
 
 #tabIndicator {
-  position: absolute;
-  width: 40px;
+  width: 70%;
+  margin-left: 15%;
   background: #3dbe59;
-  height: 3px;
-  top: 95px;
-  left: 20px;
-  border-radius: 1.5px;
+  margin-top: 4px;
+  height: 4px;
+  border-radius: 2px;
 }
 
 #swiper {
   border-radius: 10px;
   margin-top: 15px;
   height: 140px;
+  width: 100%;
 }
 
 .slide-image {
   border-radius: 5px;
+  width: 100%;
+  height: 140px;
 }
 
 #activityUrl {
   width: 100%;
   height: 120px;
+}
+
+.coupon {
+  width: 94%;
+  height: 60px;
+  background: #fff;
+  border-width: 1px;
+  border-color: #bbb;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0rpx 5rpx 5rpx 0rpx #999;
+  margin-top: 5px;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+}
+
+#couponbox {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -18,6 +18,7 @@ Page({
     interval: 5000,
     duration: 1000,
     activityUrl: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542909071518&di=cfa8ff25da458d2d1221d684160ea736&imgtype=0&src=http%3A%2F%2Fimage.joyj.com%2Fimg%2F2018%2F03%2F14%2Fdbcfd2d3e48d73f00913bceac02d4b00.png',
+    fruit_banner:'../../res/image/banner_fruits.png'
   },
 
   /**
